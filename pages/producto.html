@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../assets/imagenes/favicon.jpg" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css" />
     <title>Stimpress | Productos</title>
     <!--Wireframe + estructura-->
@@ -17,30 +19,98 @@
         height="150px"
         class="bordes-redondeados header-img"
       />
-      <nav class="texto-derecha">
-        <a href="../index.html" class="letra">Inicio|</a>
-        <a href="producto.html" class="letra">Producto|</a>
-        <a href="preguntasfrecuentes.html" class="letra"
-          >Preguntas Frecuentes |</a
-        >
-        <a href="nosotros.html" class="letra">Nosotros |</a>
-        <a href="contacto.html" class="letra"> Contacto</a>
-      </nav>
+      <div class="container-fluid ">
+
+
+        <nav class="navbar navbar-expand-sm navbar-light">
+
+            <div class="conainer-fluid">
+
+                <button type="button" class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#Menunavegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="Menunavegacion" class="collapse navbar-collapse ">
+
+                    <ul id="efecthover" class="menuNavegacion navbar-nav ms-3 ">
+                        <li class="nav-item  "><a href="../index.html"  title="INICIO"><span>INICIO</span></a></li>
+    
+                        <li class="nav-item"><a href="producto.html" title="PRODUCTOS"><span>PRODUCTOS</span></a></li>
+    
+                        <li class="nav-item"><a href="preguntasfrecuentes.html" title="PREGUNTAS FRECUENTES"><span>PREGUNTAS FRECUENTES</span></a></li>
+    
+                        <li class="nav-item"><a href="nosotros.html" title="NOSOTROS">NOSOTROS</a></li>
+    
+                        <li class="nav-item"><a href="contacto.html" title="CONTACTO"><span>CONTACTO</span></a></li>
+                </div>
+            </div>
+
+        </nav>
+    </div>
     </header>
 
     <h1>Productos</h1>
-
+    
     <div class="flex-evenly">
-      <img src="../assets/imagenes/siesta.jpeg" />
-      <img src="../assets/imagenes/5.jpeg" />
-      <img src="../assets/imagenes/tabla.jpeg" />
-      <img src="../assets/imagenes/6.jpeg" />
-      <img src="../assets/imagenes/rosa.jpeg" />
-      <img src="../assets/imagenes/simpson.jpeg" />
-      <img src="../assets/imagenes/5.jpeg" />
-      <img src="../assets/imagenes/bolos.jpeg" />
-      <img src="../assets/imagenes/tabla.jpeg" />
-    </div>
+
+      <div class="card productos-destacados" style="width: 19rem;">
+        <img src="../assets/imagenes/siesta.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LOS SIMPSON</h5>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <div class="card productos-destacados" style="width: 19rem;">
+        <img src="../assets/imagenes/5.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LOS SIMPSON</h5>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+
+      <div class="card productos-destacados" style="width: 19rem;">
+        <img src="../assets/imagenes/5.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LOS SIMPSON</h5>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <div class="card productos-destacados " style="width: 19rem;">
+        <img src="../assets/imagenes/tabla.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LOS SIMPSON</h5>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <div class="card productos-destacados" style="width: 19rem;">
+        <img src="../assets/imagenes/homero.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LOS SIMPSON</h5>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <div class="card productos-destacados" style="width: 19rem;">
+        <img src="../assets/imagenes/bolos.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LOS SIMPSON</h5>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+      <div class="card productos-destacados" style="width: 19rem;">
+        <img src="../assets/imagenes/amarilla.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LOS SIMPSON</h5>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div><div class="card productos-destacados" style="width: 19rem;">
+        <img src="../assets/imagenespe/5.jg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LOS SIMPSON</h5>
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+
+
+      
 
     <footer
       class="site-footer letra-footer"
@@ -88,5 +158,6 @@
         />
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

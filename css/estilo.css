@@ -17,11 +17,11 @@ body {
   border-radius: 10px;
 }
 .contacto-title {
-  margin: 0 0 15px 15px;
+  margin: 100px 50px 50px 50px;
 }
 
 .letra {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: black; 
 }
 
 .footer-titulo {
@@ -41,16 +41,34 @@ body {
 
 .campo {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 15px  ;
+  
 }
 
 h1 {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  margin: 100px 100px  0px 100px;text-align:center
+  ;
+}
+
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(0, 0, 0);
   margin: 5px;
+  ;
+}
+
+.video {
+  display: block;
+  margin: auto;
+  margin-bottom: 90px;
+  margin-top: 60px
 }
 .texto-derecha {
-  text-align: right;
+  text-align: right
+  ;
+
 }
 
 .site-footer {
@@ -60,13 +78,15 @@ h1 {
 
 .texto-centro {
   text-align: center;
-  padding: 15px 0;
+  padding: 150px 0;
+  font-size: large;
 }
 
 .contacto {
   background-color: rgb(255, 255, 255);
   border: rgb(255, 255, 255);
   padding: 50px;
+  margin: 0 0 100px 25px
 }
 .header-img {
   display: block;
@@ -74,6 +94,8 @@ h1 {
   margin-bottom: 25px;
   margin-top: 25px;
 }
+
+
 
 .boton-formulario {
   display: block;
@@ -89,7 +111,7 @@ h1 {
   flex-wrap: wrap;
 }
 .flex-evenly > img {
-  margin: 15px;
+  margin: 100px;
   height: 200px;
 }
 
@@ -102,7 +124,7 @@ h1 {
 }
 
 .letra-footer {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(0, 0, 0);
 }
 
@@ -115,4 +137,35 @@ h1 {
   padding: 10px;
 }
     
+ul{list-style:none;margin:0px;padding:0px;clear:both;}
+ul li{margin:0px 10px;padding:0px;float:left; }
+ul li a{display:block;text-decoration:none}
 
+ul#efecthover li a{
+  position: relative;
+  color: rgb(255, 251, 251);
+  font-weight:bold;
+  -ms-interpolation-mode: inherit;
+  
+}
+ul#efecthover li a:before{
+  position: absolute;
+  color: #a005dd;
+  content:attr(title);
+  left:0px;
+  top:0px;
+  max-width:0%;
+  white-space: nowrap;
+  overflow:hidden;
+  transition: max-width 0.3s linear;
+  
+
+}
+ul#efecthover li a:hover:before{
+  max-width:100%; 
+}
+
+Header{
+ background-color: black;margin: 0px 0px 50px 0px;
+ padding: 25px;
+}
