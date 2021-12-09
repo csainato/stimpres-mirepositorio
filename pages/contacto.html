@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../assets/imagenes/favicon.jpg" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css" />
     <title>Stimpress | Contacto</title>
   </head>
@@ -18,89 +20,69 @@
         class="bordes-redondeados header-img"
       />
 
-      <nav class="texto-derecha">
-        <a href="../index.html" class="letra">Inicio | </a>
-        <a href="producto.html" class="letra">Productos | </a>
-        <a href="preguntasfrecuentes.html" class="letra"
-          >Preguntas Frecuentes |
-        </a>
-        <a href="nosotros.html" class="letra">Nosotros | </a>
-        <a href="contacto.html" class="letra">Contacto</a>
-      </nav>
+      <div class="container-fluid ">
+
+
+        <nav class="navbar navbar-expand-sm navbar-light">
+
+            <div class="conainer-fluid">
+
+                <button type="button" class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#Menunavegacion">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="Menunavegacion" class="collapse navbar-collapse ">
+
+                    <ul id="efecthover" class="menuNavegacion navbar-nav ms-3 ">
+                        <li class="nav-item  "><a href="../index.html"  title="INICIO"><span>INICIO</span></a></li>
+    
+                        <li class="nav-item"><a href="producto.html" title="PRODUCTOS"><span>PRODUCTOS</span></a></li>
+    
+                        <li class="nav-item"><a href="preguntasfrecuentes.html" title="PREGUNTAS FRECUENTES"><span>PREGUNTAS FRECUENTES</span></a></li>
+    
+                        <li class="nav-item"><a href="nosotros.html" title="NOSOTROS">NOSOTROS</a></li>
+    
+                        <li class="nav-item"><a href="contacto.html" title="CONTACTO"><span>CONTACTO</span></a></li>
+                </div>
+            </div>
+
+        </nav>
     </header>
-
+ <!--class="-->
     <h1 class="contacto-title">Contacto</h1>
-<div>
-    <form action="" method="">
-      <fieldset class="contacto">
-        <div class="ancho-completo">
-          <div class="ancho-mitad">
-            <label for="nombre y apellido" class="letra campo"
-              >Nombre y Apellido</label
-            >
-            <input
-              type="text"
-              name="nombre y apellido"
-              placeholder="Nombre y apellido"
-              class="campo ancho-mitad"
-              required
-            />
-          </div>
-          <div class="ancho-mitad">
-            <label for="Correo Electronico" class="letra campo"
-              >Correo Electronico</label
-            >
-            <input
-              type="text"
-              name="correo electronico"
-              placeholder="mail@hotmail.com"
-              class="campo ancho-mitad"
-              required
-            />
-          </div>
-        </div>
-
-        <div class="ancho-completo">
-          <div class="ancho-mitad">
-            <label for="Asunto" class="letra campo">Asunto</label>
-
-            <input
-              type="text"
-              name="Asunto"
-              class="campo ancho-mitad"
-              placeholder="escribe"
-              required
-            />
-          </div>
-          <div class="ancho-mitad">
-            <label for="Telefono" class="letra campo">Telefono</label>
-
-            <input
-              type="text"
-              name="Telefono"
-              class="campo ancho-mitad"
-              placeholder="Telefono"
-              required
-            />
-          </div>
-        </div>
-
-        <label for="Mensaje" class="letra campo">Mensaje</label>
-
-        <textarea
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label campo">Correo electronico</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Nombre completo</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Asunto</label>
+      <input type="text" class="form-control" id="inputAddress" >
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Telefono</label>
+      <input type="text" class="form-control" id="inputAddress2" >
+    </div>
+    <label for="Mensaje" class="letra ">Mensaje</label>
+    <textarea
           name="Mensaje"
           id="Mensaje"
           cols="30"
           rows="10"
-          class="bordes-redondeados campo ancho-completo"
+          class="bordes-redondeados  campo ancho-completo "
         >
         </textarea>
+    
 
-        <input
-          type="submit"
-          value="Enviar Formulario"
-          class="bordes-redondeados campo boton-formulario"
-        />
+        
+        
+          <div class="d-grid gap-2 col-6 mx-auto">
+            
+          <button type="submit" style="background-color: blueviolet;" class="btn  btn-primary boton-formulario">Enviar formulario</button>
+        </div>
+        
       </fieldset>
 
     </div>
@@ -127,6 +109,6 @@
         <img src="../assets/imagenes/facebook.jpg" style="width: 10% " class="icono-footer bordes"/>
       </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
