@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+ 
   font-family: "Roboto Condensed", sans-serif;
   padding-bottom: 15px;
 }
@@ -45,12 +45,7 @@ body {
   
 }
 
-h1 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgb(0, 0, 0);
-  margin: 100px 100px  0px 100px;text-align:center
-  ;
-}
+
 
 h2{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -137,6 +132,12 @@ h2{
   padding: 10px;
 }
     
+
+Header{
+ background-color: black;margin: 0px 0px 50px 0px;
+ padding: 25px;
+}
+
 ul{list-style:none;margin:0px;padding:0px;clear:both;}
 ul li{margin:0px 10px;padding:0px;float:left; }
 ul li a{display:block;text-decoration:none}
@@ -163,9 +164,4 @@ ul#efecthover li a:before{
 }
 ul#efecthover li a:hover:before{
   max-width:100%; 
-}
-
-Header{
- background-color: black;margin: 0px 0px 50px 0px;
- padding: 25px;
 }
