@@ -16,6 +16,22 @@ body {
     margin: 100px 100px  0px 100px;text-align:center
     ;}
     
+
+    $lila: #a491be;
+$clarito: #ffffff;
+$white: #FFFFFF;
+div {
+  
+  margin: 0 auto;
+  padding: 20px;
+  & h5 {
+    color: $clarito;
+  }
+  & li {
+    color: $white;
+  }
+}
+
   
 
   

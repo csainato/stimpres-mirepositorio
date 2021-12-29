@@ -17,4 +17,17 @@ h2 {
   margin: 100px 100px  0px 100px;
   text-align: center;
 }
+
+div {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+div h5 {
+  color: #ffffff;
+}
+
+div li {
+  color: #FFFFFF;
+}
 /*# sourceMappingURL=style.css.map */
